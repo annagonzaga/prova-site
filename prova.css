@@ -1,0 +1,40 @@
+*
+{ 
+    padding:0;
+    margin: 0;
+    box-sizing:0;
+}
+
+header
+{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 100%;
+   background-color: yellow;
+
+}
+.listaNav
+{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.listaNav p
+{
+    padding: 1rem;
+}
+ul
+{
+list-style-type: none;
+}
+.hero-image
+{
+    background-image: url(paisagem.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
